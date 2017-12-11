@@ -1,0 +1,75 @@
+{% load staticfiles %}
+{% load bootstrap3 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+{% bootstrap_messages %}
+{% load apptags %}
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>Личный кабинет</title>
+  {% comment %}
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  {% endcomment %}
+  <link type="text/css" rel="stylesheet" href="{%static "css/style.css"%}">
+  {% comment %} ШРИФТ OPEN SANS|PT SANS, как на сайте КФУ, подгрузка{% endcomment %}
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
+
+</head>
+<body>
+  <div class="page-header">
+    <h1><a href="{% url 'office' ID %}">{{ MemberName }}</a></h1>
+  </div>
+  <div class="container">
+    <div class="row">
+        <h1 class="title"></h1>
+        <form action="" method="post">
+        {% csrf_token %}
+          <input type="hidden" name="ID" value="{{ ID }}"/></form>
+          <nav class="navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="navbar-main">
+                <ul class="nav nav-tabs nav-justified">
+                  <li {% if request|is_current_page_view:"work" %}class="active"{% endif %}>
+                    <a href="{% url 'work' ID%}">         Работа</a>
+                  </li>
+                  <li {% if request|is_current_page_view:"member" %}class="active"{% endif %}>
+                    <a href="{% url 'member' ID%}">       Личные данные</a>
+                  </li>
+                  <li {% if request|is_current_page_view:"organization" %}class="active"{% endif %}>
+                    <a href="{% url 'organization' ID%}"> Направляющая организация</a>
+                  </li>
+                  <li {% if request|is_current_page_view:"director" %}class="active"{% endif %}>
+                    <a href="{% url 'director' ID%}">     Научный руководитель</a>
+                  </li>
+                  <li {% if request|is_current_page_view:"receipt" %}class="active"{% endif %}>
+                    <a href="{% url 'receipt' ID%}">      Заявка</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="col-lg-4 col-lg-offset-4">
+            {% if not request|is_current_page_view:"office" %}
+              <form action="" method="post">
+              {% csrf_token %}
+                {% bootstrap_form form %}
+                {% bootstrap_button "Изменить"  name="Change" button_type="submit"  size="large" %}
+                {% bootstrap_button "Далее"     name="Next"   button_type="submit"  size="large" %}
+              </form>
+            {% endif %}
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

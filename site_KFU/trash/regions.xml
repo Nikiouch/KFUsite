@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<regions>
+	<region id="1">
+		<name>Республика Адыгея</name>
+	</region>
+	<region id="2">
+		<name>Республика Башкортостан</name>
+	</region>
+	<region id="3">
+		<name>Республика Бурятия</name>
+	</region>
+	<region id="4">
+		<name>Республика Алтай</name>
+	</region>
+	<region id="5">
+		<name>Республика Дагестан</name>
+	</region>
+	<region id="6">
+		<name>Республика Ингушетия</name>
+	</region>
+	<region id="7">
+		<name>Кабардино-Балкарская Республика</name>
+	</region>
+	<region id="8">
+		<name>Республика Калмыкия</name>
+	</region>
+	<region id="9">
+		<name>Карачаево-Черкесская Республика</name>
+	</region>
+	<region id="10">
+		<name>Республика Карелия</name>
+	</region>
+	<region id="11">
+		<name>Республика Коми</name>
+	</region>
+	<region id="12">
+		<name>Республика Марий Эл</name>
+	</region>
+	<region id="13">
+		<name>Республика Мордовия</name>
+	</region>
+	<region id="14">
+		<name>Республика Саха (Якутия)</name>
+	</region>
+	<region id="15">
+		<name>Республика Северная Осетия - Алания</name>
+	</region>
+	<region id="16">
+		<name>Республика Татарстан</name>
+	</region>
+	<region id="17">
+		<name>Республика Тува</name>
+	</region>
+	<region id="18">
+		<name>Удмуртская Республика</name>
+	</region>
+	<region id="19">
+		<name>Республика Хакасия</name>
+	</region>
+	<region id="20">
+		<name>Чеченская Республика</name>
+	</region>
+	<region id="21">
+		<name>Республика Чувашия</name>
+	</region>
+	<region id="22">
+		<name>Алтайский край</name>
+	</region>
+	<region id="23">
+		<name>Краснодарский край</name>
+	</region>
+	<region id="24">
+		<name>Красноярский край</name>
+	</region>
+	<region id="25">
+		<name>Приморский край</name>
+	</region>
+	<region id="26">
+		<name>Ставропольский край</name>
+	</region>
+	<region id="27">
+		<name>Хабаровский край</name>
+	</region>
+	<region id="28">
+		<name>Амурская область</name>
+	</region>
+	<region id="29">
+		<name>Архангельская область</name>
+	</region>
+	<region id="30">
+		<name>Астраханская область</name>
+	</region>
+	<region id="31">
+		<name>Белгородская область</name>
+	</region>
+	<region id="32">
+		<name>Брянская область</name>
+	</region>
+	<region id="33">
+		<name>Владимирская область</name>
+	</region>
+	<region id="34">
+		<name>Волгоградская область</name>
+	</region>
+	<region id="35">
+		<name>Вологодская область</name>
+	</region>
+	<region id="36">
+		<name>Воронежская область</name>
+	</region>
+	<region id="37">
+		<name>Ивановская область</name>
+	</region>
+	<region id="38">
+		<name>Иркутская область</name>
+	</region>
+	<region id="39">
+		<name>Калининградская область</name>
+	</region>
+	<region id="40">
+		<name>Калужская область</name>
+	</region>
+	<region id="41">
+		<name>Камчатский край</name>
+	</region>
+	<region id="42">
+		<name>Кемеровская область</name>
+	</region>
+	<region id="43">
+		<name>Кировская область</name>
+	</region>
+	<region id="44">
+		<name>Костромская область</name>
+	</region>
+	<region id="45">
+		<name>Курганская область</name>
+	</region>
+	<region id="46">
+		<name>Курская область</name>
+	</region>
+	<region id="47">
+		<name>Ленинградская область</name>
+	</region>
+	<region id="48">
+		<name>Липецкая область</name>
+	</region>
+	<region id="49">
+		<name>Магаданская область</name>
+	</region>
+	<region id="50">
+		<name>Московская область</name>
+	</region>
+	<region id="51">
+		<name>Мурманская область</name>
+	</region>
+	<region id="52">
+		<name>Нижегородская область</name>
+	</region>
+	<region id="53">
+		<name>Новгородская область</name>
+	</region>
+	<region id="54">
+		<name>Новосибирская область</name>
+	</region>
+	<region id="55">
+		<name>Омская область</name>
+	</region>
+	<region id="56">
+		<name>Оренбургская область</name>
+	</region>
+	<region id="57">
+		<name>Орловская область</name>
+	</region>
+	<region id="58">
+		<name>Пензенская область</name>
+	</region>
+	<region id="59">
+		<name>Пермский край</name>
+	</region>
+	<region id="60">
+		<name>Псковская область</name>
+	</region>
+	<region id="61">
+		<name>Ростовская область</name>
+	</region>
+	<region id="62">
+		<name>Рязанская область</name>
+	</region>
+	<region id="63">
+		<name>Самарская область</name>
+	</region>
+	<region id="64">
+		<name>Саратовская область</name>
+	</region>
+	<region id="65">
+		<name>Сахалинская область</name>
+	</region>
+	<region id="66">
+		<name>Свердловская область</name>
+	</region>
+	<region id="67">
+		<name>Смоленская область</name>
+	</region>
+	<region id="68">
+		<name>Тамбовская область</name>
+	</region>
+	<region id="69">
+		<name>Тверская область</name>
+	</region>
+	<region id="70">
+		<name>Томская область</name>
+	</region>
+	<region id="71">
+		<name>Тульская область</name>
+	</region>
+	<region id="72">
+		<name>Тюменская область</name>
+	</region>
+	<region id="73">
+		<name>Ульяновская область</name>
+	</region>
+	<region id="74">
+		<name>Челябинская область</name>
+	</region>
+	<region id="75">
+		<name>Забайкальский край</name>
+	</region>
+	<region id="76">
+		<name>Ярославская область</name>
+	</region>
+	<region id="77">
+		<name>Город Москва</name>
+	</region>
+	<region id="78">
+		<name>Город Санкт-Петербург</name>
+	</region>
+	<region id="79">
+		<name>Еврейская автономная область</name>
+	</region>
+	<region id="81">
+		<name>Коми Пермяцкий автономный округ</name>
+	</region>
+	<region id="82">
+		<name>Корякский автономный окру</name>
+	</region>
+	<region id="83">
+		<name>Ненецкий автономный округ</name>
+	</region>
+	<region id="84">
+		<name>Таймырский (Долгано Ненецкий) автономный округ</name>
+	</region>
+	<region id="85">
+		<name>Усть Ордынский Бурятский автономный округ</name>
+	</region>
+	<region id="86">
+		<name>Ханты-Мансийский автономный округ</name>
+	</region>
+	<region id="87">
+		<name>Чукотский автономный округ</name>
+	</region>
+	<region id="88">
+		<name>Эвенкийский автономный округ</name>
+	</region>
+	<region id="89">
+		<name>Ямало-Ненецкий автономный округ</name>
+	</region>
+	<region id="101">
+		<name>Азербайджан</name>
+	</region>
+	<region id="102">
+		<name>Армения</name>
+	</region>
+	<region id="103">
+		<name>Белоруссия</name>
+	</region>
+	<region id="104">
+		<name>Грузия</name>
+	</region>
+	<region id="105">
+		<name>Казахстан</name>
+	</region>
+	<region id="106">
+		<name>Киргизия</name>
+	</region>
+	<region id="107">
+		<name>Молдавия</name>
+	</region>
+	<region id="108">
+		<name>Таджикистан</name>
+	</region>
+	<region id="109">
+		<name>Узбекистан</name>
+	</region>
+	<region id="110">
+		<name>Украина</name>
+	</region>
+</regions>

@@ -1,0 +1,38 @@
+{% load staticfiles %}
+{% load bootstrap3 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+{% bootstrap_messages %}
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  {% comment %}
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  {% endcomment %}
+  <title>Добро пожаловать!</title>
+  <link type="text/css" rel="stylesheet" href="{%static "css/style.css"%}">
+  {% comment %} ШРИФТ OPEN SANS|PT SANS, как на сайте КФУ, подгрузка
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
+  {% endcomment %}
+</head>
+  <body>
+    <div class="page-header"> <h1><a href="/login">Вход</a></h1> </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+          <form action="" method="post">  {% csrf_token %}
+            {% bootstrap_form login_form %}
+              {% bootstrap_button "Войти" name="log_in"       button_type="submit" size="large" %}
+              {% bootstrap_button "Жюри"  name="jury_log_in"  button_type="submit" size="large" %}
+          </form>
+          {% buttons %}
+            {% bootstrap_button "Регистрация"  button_type="link" href="registration" size="large"%}
+            {% bootstrap_button "Круглый стол" button_type="link" href=""       size="large" %}
+          {% endbuttons %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

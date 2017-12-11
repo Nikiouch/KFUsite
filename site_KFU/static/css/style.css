@@ -1,0 +1,15 @@
+.page-header{
+    background-color: #0086e1;
+    margin-top: auto;
+    padding: 10px 10px 10px 80px;
+}
+
+.page-header a h1{
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+/*  ШРИФТ OPEN SANS|PT SANS, как на сайте КФУ, подгрузка
+font-family: 'Open Sans', sans-serif;
+*/
